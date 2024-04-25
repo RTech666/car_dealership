@@ -20,4 +20,9 @@ class Vehicle {
         this.odometer = odometer;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "VIN: " + vin + ", Year: " + year + ", Make: " + make + ", Model: " + model + ", Type: " + vehicleType + ", Color: " + color + ", Odometer: " + odometer + ", Price: $" + price;
+    }
 }

@@ -69,7 +69,8 @@ public class UserInterface {
                     processRemoveVehicleRequest();
                     break;
                 case 0:
-                    return;
+                    System.exit(0);
+                    break;
                 default:
                     System.out.println("Invalid Input. Please try again.");
             }
