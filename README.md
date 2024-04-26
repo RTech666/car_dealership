@@ -1,5 +1,5 @@
 # car_dealership
-Basic car dealership program made in Java. It can search a CSV for cars by a price range, make and model, year range, color, mileage range, vehicle type, and can add and/or remove cehicles from the CSV.
+Basic car dealership program made in Java. It can search a CSV for cars by a price range, make and model, year range, color, mileage range, vehicle type, and can add and/or remove vehicles from the CSV.
 
 ![workshop4_home](https://github.com/RTech666/car_dealership/assets/32269553/1d41a1eb-bf4a-410b-add3-763a7850d790)
 
