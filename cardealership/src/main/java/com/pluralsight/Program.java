@@ -1,3 +1,8 @@
+/* 
+Program.java
+This Java file just calls to the UserInterface to start the program.
+*/
+
 package com.pluralsight;
 
 public class Program {

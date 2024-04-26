@@ -1,3 +1,9 @@
+/* 
+Vehicle.java
+
+This Java file contains the contructor for the vehicle array and has all the getters for other class files to use to get data as needed.
+*/
+
 package com.pluralsight;
 
 class Vehicle {
@@ -19,6 +25,39 @@ class Vehicle {
         this.color = color;
         this.odometer = odometer;
         this.price = price;
+    }
+
+    // Create the getters.
+    public int getVin() {
+        return vin;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getOdometer() {
+        return odometer;
+    }
+
+    public String getVehicleType() {
+        return vehicleType;
     }
 
     @Override
